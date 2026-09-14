@@ -1,75 +1,56 @@
-# React + TypeScript + Vite
+# 🏗️ Ideal Materiais Itariri
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page profissional desenvolvida para a **Ideal Materiais Itariri**, uma loja de materiais para construção localizada em **Itariri — SP**.
 
-Currently, two official plugins are available:
+O projeto foi criado com foco em um design **moderno, responsivo e intuitivo**, utilizando animações para proporcionar uma experiência mais dinâmica aos visitantes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Ideal Materiais](./src/assets/preview.png)
 
-## Expanding the ESLint configuration
+> _Preview da landing page da Ideal Materiais Itariri._
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Tecnologias
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- ⚛️ **React**
+- 🔷 **TypeScript**
+- 🎨 **Tailwind CSS**
+- 🎬 **Framer Motion**
+- ⚡ **Vite**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
-```
+## 💡 Sobre o projeto
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+A landing page foi desenvolvida para apresentar a **Ideal Materiais Itariri** de forma moderna e profissional, destacando a empresa, seus produtos, categorias, marcas e localização.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+O projeto conta com:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- 📱 Design responsivo
+- 🎨 Identidade visual baseada em amarelo, preto e branco
+- 🎬 Animações e transições com Framer Motion
+- 📊 Contadores animados
+- 🏷️ Marquee de marcas
+- 📍 Seção de localização
+- 🧱 Apresentação de categorias de produtos
+- ⚡ Interface rápida e moderna
 
-```
+---
+
+## 🏗️ Ideal Materiais Itariri
+
+**Materiais para construção com qualidade e confiança.**
+
+📍 Itariri — São Paulo, Brasil
+
+---
+
+<div align="center">
+
+**Desenvolvido com ❤️ utilizando React, TypeScript e Tailwind CSS.**
+
+</div>
