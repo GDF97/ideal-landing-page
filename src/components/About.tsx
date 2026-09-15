@@ -10,7 +10,7 @@ function About() {
         <img src={Store} alt="" />
         <div className="flex flex-col gap-8">
           <h1 className="font-anton uppercase text-4xl">Sobre a Ideal</h1>
-          <p className="lg:w-130 lg:text-xl leading-loose">
+          <p className="lg:max-w-130 lg:text-xl leading-loose">
             Há mais de 25 anos, a Ideal Materiais para Construção é referência
             em qualidade, atendimento e confiança. Atendemos desde pequenas
             reformas até grandes obras, sempre com o compromisso de oferecer as
