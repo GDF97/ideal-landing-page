@@ -1,3 +1,8 @@
+import { Phone } from "lucide-react";
+import { MapPin } from "lucide-react";
+import { Clock } from "lucide-react";
+import { Mail } from "lucide-react";
+
 function Footer() {
   const address = encodeURIComponent(
     "R. Benedito Calixto, 31 - Centro, Itariri - SP, 11760-000",
@@ -68,19 +73,21 @@ function Footer() {
             href={`https://www.google.com/maps/search/?api=1&query=${address}`}
             target="_blank"
             rel="noopener noreferrer"
+            className="flex items-center gap-2"
           >
-            <img src="" alt="" />
+            <MapPin color="#f1b703" size={16} />
             <p>Rua Benedito Calixto, 31 - Centro, Itariri - SP</p>
           </a>
           <a
             href="https://wa.me/+551334181502?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento"
             target="_blank"
+            className="flex items-center gap-2"
           >
-            <img src="" alt="" />
+            <Phone color="#f1b703" size={16} />
             <p>(13) 3418-1502</p>
           </a>
-          <span>
-            <img src="" alt="" />
+          <span className="flex items-center gap-2">
+            <Mail color="#f1b703" size={16} />
             <p>ideal.ejs@hotmail.com</p>
           </span>
         </div>
