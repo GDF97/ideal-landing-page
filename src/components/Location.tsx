@@ -1,3 +1,7 @@
+import { Phone } from "lucide-react";
+import { MapPin } from "lucide-react";
+import { Clock } from "lucide-react";
+
 function Location() {
   const address = encodeURIComponent(
     "R. Benedito Calixto, 31 - Centro, Itariri - SP, 11760-000",
@@ -12,7 +16,7 @@ function Location() {
           Perto de você,<p> sempre!</p>
         </h1>
         <span className="flex items-start gap-4">
-          <img src="" alt="" className="w-7.5 h-7.5" />
+          <MapPin color="black" />
           <div className="font-semibold">
             <p>Rua Benedito calixto, 31</p>
             <p>Centro de Itariri - SP</p>
@@ -20,14 +24,14 @@ function Location() {
           </div>
         </span>
         <span className="flex items-start gap-4">
-          <img src="" alt="" className="w-7.5 h-7.5" />
+          <Clock color="black" />
           <div className="font-semibold">
             <p>Segunda a Sexta: 8h ás 18h</p>
             <p>Sábado: 9h ás 17h</p>
           </div>
         </span>
         <span className="font-semibold flex items-start gap-4">
-          <img src="" alt="" className="w-7.5 h-7.5" />
+          <Phone color="black" />
           <p>(13) 3418-1502</p>
         </span>
         <a

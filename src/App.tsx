@@ -11,7 +11,7 @@ import Stats from "./components/Stats";
 function App() {
   return (
     <main className="relative w-full min-h-screen flex flex-col  bg-ideal-white font-inter">
-      {/* <PageLoader /> */}
+      <PageLoader />
       <Header />
       <Hero />
       <Stats />
