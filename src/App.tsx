@@ -20,6 +20,18 @@ function App() {
       <Category />
       <Location />
       <Footer />
+      <div className="p-4 w-full text-center  bg-ideal-black text-white">
+        <h1>
+          Desenvolvido com ❤️ por{" "}
+          <a
+            href="https://gdf97-portfolio.vercel.app/"
+            target="_blank"
+            className="font-bold underline text-ideal-yellow"
+          >
+            Pedro Henrique Silva
+          </a>
+        </h1>
+      </div>
     </main>
   );
 }

@@ -37,7 +37,7 @@ function BrandItem({ logo, name }: Brand) {
       <img
         src={logo}
         alt={name}
-        className="h-10 lg:max-h-25 lg:max-w-60 object-contain"
+        className="max-h-10 lg:max-h-25 lg:max-w-60 object-contain"
       />
     </div>
   );
