@@ -1,5 +1,4 @@
 import { Phone, MapPin, Mail } from "lucide-react";
-import LOGO from "../assets/ideal-logo-2.png";
 
 function Footer() {
   const address = encodeURIComponent(
