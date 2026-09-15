@@ -34,15 +34,22 @@ const brandsArr: Array<Brand> = [
 function BrandItem({ logo, name }: Brand) {
   return (
     <div className="flex  shrink-0 items-center justify-center">
-      <img src={logo} alt={name} className="max-h-25 max-w-60 object-contain" />
+      <img
+        src={logo}
+        alt={name}
+        className="h-10 lg:max-h-25 lg:max-w-60 object-contain"
+      />
     </div>
   );
 }
 
 function Brands() {
   return (
-    <section className="w-full flex flex-col min-h-125 p-8 gap-8" id="products">
-      <h1 className="font-anton text-5xl uppercase">
+    <section
+      className="w-full flex flex-col px-4 py-8 lg:min-h-125 lg:p-8 gap-8"
+      id="products"
+    >
+      <h1 className="font-anton text-3xl lg:text-5xl uppercase">
         As melhores marcas
         <p>
           do mercado para sua <span className="text-ideal-yellow">obra!</span>
