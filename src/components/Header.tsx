@@ -1,3 +1,5 @@
+import { Menu, X } from "lucide-react";
+
 import logo1 from "../assets/ideal-logo-1.png";
 
 function DesktopHeader() {
