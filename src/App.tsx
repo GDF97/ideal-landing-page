@@ -13,13 +13,13 @@ function App() {
     <main className="relative w-full min-h-screen flex flex-col  bg-ideal-white font-inter">
       <PageLoader />
       <Header />
-      {/* <Hero />
+      <Hero />
       <Stats />
       <About />
       <Brands />
       <Category />
       <Location />
-      <Footer /> */}
+      <Footer />
     </main>
   );
 }

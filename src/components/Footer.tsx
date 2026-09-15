@@ -1,7 +1,5 @@
-import { Phone } from "lucide-react";
-import { MapPin } from "lucide-react";
-import { Clock } from "lucide-react";
-import { Mail } from "lucide-react";
+import { Phone, MapPin, Mail } from "lucide-react";
+import LOGO from "../assets/ideal-logo-2.png";
 
 function Footer() {
   const address = encodeURIComponent(
@@ -10,7 +8,7 @@ function Footer() {
 
   return (
     <footer
-      className="p-8 w-full flex justify-between items-start bg-ideal-black text-white"
+      className="px-4 py-8 lg:p-8 w-full flex flex-col gap-8 lg:gap-0 justify-between items-start bg-ideal-black text-white lg:flex-row"
       id="footer"
     >
       <div className="flex flex-col gap-4">
@@ -21,7 +19,6 @@ function Footer() {
         <p className="text-sm w-70">
           Qualidade confiança e o melhor atendimento para sua obra.
         </p>
-        <span></span>
       </div>
       <div className="flex flex-col gap-4">
         <h1 className="font-semibold uppercase">Navegação</h1>
