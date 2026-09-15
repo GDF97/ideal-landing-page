@@ -25,8 +25,12 @@ const categories: Array<CategoryType> = [
 
 function CategoryItem({ name, logo }: CategoryType) {
   return (
-    <div className="w-50 flex flex-col items-center gap-2.5">
-      <img src={logo} alt={name} className="w-25 h-25 object-contain " />
+    <div className="lg:w-50 flex flex-col items-center gap-2.5">
+      <img
+        src={logo}
+        alt={name}
+        className="w-15 h-15 lg:w-25 lg:h-25 object-contain "
+      />
       <p className="text-white uppercase">{name}</p>
     </div>
   );
@@ -34,17 +38,17 @@ function CategoryItem({ name, logo }: CategoryType) {
 
 function Category() {
   return (
-    <section className="w-full min-h-125 flex flex-col gap-8 p-8 bg-ideal-black">
-      <div className="w-fit p-4  bg-ideal-yellow">
-        <h1 className="uppercase font-bold">CATEGORIAS</h1>
+    <section className="w-full lg:min-h-125 flex flex-col gap-8 px-4 py-8 lg:p-8 bg-ideal-black">
+      <div className="w-fit p-2 lg:p-4  bg-ideal-yellow">
+        <h1 className="uppercase font-bold text-xs lg:text-base">CATEGORIAS</h1>
       </div>
-      <h1 className="text-5xl text-white uppercase font-anton flex flex-col">
+      <h1 className="text-3xl lg:text-5xl text-white uppercase font-anton flex flex-col">
         Encontre tudo{" "}
         <span>
           o que sua <span className="text-ideal-yellow">obra</span> precisa.
         </span>
       </h1>
-      <div className="w-full flex justify-between">
+      <div className="w-full flex gap-8 overflow-auto justify-between">
         {[...categories].map((category, index) => (
           <CategoryItem {...category} key={`${category.name}-${index}`} />
         ))}
